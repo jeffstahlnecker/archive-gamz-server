@@ -1,9 +1,10 @@
 import express from 'express'
-import {indexPage} from '../controllers'
+import {queryUser, queryGames} from '../controllers'
 
 const router = express.Router()
 
 // @ts-ignore
-router.get('/:email', indexPage)
+router.get('/users/:email', queryUser)
+router.get('/games', queryGames)
 
 export default router

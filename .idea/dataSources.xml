@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:postgresql://localhost:5432/gamz</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="gamz@192.168.178.58" uuid="7d5ba356-4e54-410b-b8f7-c4e829787308">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://192.168.178.58:5432/gamz</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

@@ -19,11 +19,14 @@
   "dependencies": {
     "@types/chai": "^4.2.14",
     "@types/mocha": "^8.2.0",
+    "@types/socket.io": "^2.1.12",
     "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "morgan": "^1.10.0",
-    "pg-promise": "^10.8.1"
+    "pg-promise": "^10.8.1",
+    "socket.io": "^3.0.4",
+    "ts-dotenv": "^0.8.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
